@@ -150,7 +150,7 @@ enable_katex:             true
 enable_mansory:           true
 enable_progressbar:       true
 enable_tooltips:          true
-show_social_icons:        true
+show_social_icons:        false
 
 # -----------------------------------------------------------------------------
 # Library versions
