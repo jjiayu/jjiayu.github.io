@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: tutorials
 description: Technical tutorials
 nav: true
 ---
