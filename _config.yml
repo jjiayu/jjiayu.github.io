@@ -122,7 +122,7 @@ scholar:
 
   last_name: Wang
 
-  style: ieee
+  style: apa
   locale: en
 
   sort_by: year
