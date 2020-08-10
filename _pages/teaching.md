@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Technical tutorials
-nav: false
+nav: true
 ---
 
 Sorry, the page is empty...
