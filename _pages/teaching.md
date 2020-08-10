@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /teaching/
-title: tutorial
+title: teaching
 description: Technical tutorials
-nav: true
+nav: false
 ---
 
 Sorry, the page is empty...
