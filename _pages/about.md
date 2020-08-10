@@ -8,8 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-  <p>Jiayi.Wang@ed.ac.uk</p>
-  <p>1.34, Informatics Forum, 10 Crichton Street, Edinburgh, EH8 9AB, United Kingdom</p>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
 news: true
 social: true
