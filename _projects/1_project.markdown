@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Online Motion Planning for Legged Robots
-description: Developing online motion planning algorithms for legged robots
+title: Project 1
+description: Online Motion Planning for Legged Robots
 img: /assets/img/Project1_OpenGraph.png
 importance: 1
 ---
