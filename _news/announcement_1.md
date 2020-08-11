@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Full-text available - Automatic Gait Pattern Selection for Legged Robots, IROS 2020.
+title: Full-text available - Automatic Gait Pattern Selection for Legged Robots, IROS 2020
 date:  2020-08-10 18:00:00-0000
 inline: false
 ---
