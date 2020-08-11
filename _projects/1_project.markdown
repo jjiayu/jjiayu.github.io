@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Online Legged Locomotion Planning
-description: Develop online motion planning techniques for legged robots to allow real-time adaptation to condition changes (i.e. environment, task).
+title: Online Motion Planning for Legged Robots
+description: Developing online motion planning algorithms for legged robots
 img: /assets/img/Project1_OpenGraph.png
 importance: 1
 ---
