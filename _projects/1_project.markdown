@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Online Legged Locomotion Planning
-description: Online Legged Locomotion Planning
-img: /assets/img/ANYmal_Snapshots_2.png
+description: 
+img: /assets/img/Project1_OpenGraph.png
 importance: 1
 ---
 
-Sorry, the page is empty...
+Sorry, more details will come...at some point...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BHfPymX6Hhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
