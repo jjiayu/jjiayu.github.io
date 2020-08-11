@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project 1
+title: 
 description: Online Motion Planning for Legged Robots
 img: /assets/img/Project1_OpenGraph.png
 importance: 1
