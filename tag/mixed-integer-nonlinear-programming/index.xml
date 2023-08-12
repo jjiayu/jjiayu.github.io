@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mixed-integer Nonlinear Programming | Jiayi Wang</title>
+    <link>https://jjiayu.github.io/tag/mixed-integer-nonlinear-programming/</link>
+      <atom:link href="https://jjiayu.github.io/tag/mixed-integer-nonlinear-programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mixed-integer Nonlinear Programming</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jjiayu.github.io/media/icon_hu3e8d378de3c50e108d739cc63678c258_136023_512x512_fill_lanczos_center_3.png</url>
+      <title>Mixed-integer Nonlinear Programming</title>
+      <link>https://jjiayu.github.io/tag/mixed-integer-nonlinear-programming/</link>
+    </image>
+    
+    <item>
+      <title>Automatic Gait Pattern Selection for Legged Robots</title>
+      <link>https://jjiayu.github.io/publication/wang-automatic-2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://jjiayu.github.io/publication/wang-automatic-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

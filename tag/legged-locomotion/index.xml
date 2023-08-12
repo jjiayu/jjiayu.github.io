@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legged Locomotion | Jiayi Wang</title>
+    <link>https://jjiayu.github.io/tag/legged-locomotion/</link>
+      <atom:link href="https://jjiayu.github.io/tag/legged-locomotion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Legged Locomotion</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jjiayu.github.io/media/icon_hu3e8d378de3c50e108d739cc63678c258_136023_512x512_fill_lanczos_center_3.png</url>
+      <title>Legged Locomotion</title>
+      <link>https://jjiayu.github.io/tag/legged-locomotion/</link>
+    </image>
+    
+    <item>
+      <title>Online Multi-Contact Receding Horizon Planning via Value Function Approximation</title>
+      <link>https://jjiayu.github.io/publication/wang-online-2023/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://jjiayu.github.io/publication/wang-online-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Guide Online Multi-Contact Receding Horizon Planning</title>
+      <link>https://jjiayu.github.io/publication/wang-learning-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jjiayu.github.io/publication/wang-learning-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Fidelity Receding Horizon Planning for Multi-Contact Locomotion</title>
+      <link>https://jjiayu.github.io/publication/wang-multi-fidelity-2021/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://jjiayu.github.io/publication/wang-multi-fidelity-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Gait Pattern Selection for Legged Robots</title>
+      <link>https://jjiayu.github.io/publication/wang-automatic-2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://jjiayu.github.io/publication/wang-automatic-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
