@@ -1,115 +1,79 @@
 ---
 ---
+@string{aps        = {American Physical Society,}}
+@string{tro        = "IEEE Transactions on Robotics ({T-RO})"}
+@string{iros       = "{IEEE/RSJ} International Conference on Intelligent Robots and Systems ({IROS})"}
+@string{humanoids  = "{IEEE} International Conference on Humanoid Robots ({H}umanoids)"}
 
-@string{aps = {American Physical Society,}}
+%-------
+%Own Publications
+%-------
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@misc{wang_nas_2024,
+	title = {{NAS}: {N}-step computation of {All} {Solutions} to the footstep planning problem},
+	url = {http://arxiv.org/abs/2407.12962},
+	abstract = {How many ways are there to climb a staircase in a given number of steps? Infinitely many, if we focus on the continuous aspect of the problem. A finite, possibly large number if we consider the discrete aspect, i.e. on which surface which effectors are going to step and in what order. We introduce NAS, an algorithm that considers both aspects simultaneously and computes all the possible solutions to such a contact planning problem, under standard assumptions. To our knowledge NAS is the first algorithm to produce a globally optimal policy, efficiently queried in real time for planning the next footsteps of a humanoid robot.},
+	language = {en},
+	urldate = {2024-08-13},
+	publisher = {2024 {IEEE}-{RAS} {International} {Conference} on {Humanoid} {Robots} ({Humanoids})},
+	author = {Wang, Jiayi and Samadi, Saeid and Wang, Hefan and Fernbach, Pierre and Stasse, Olivier and Vijayakumar, Sethu and Tonneau, Steve},
+	month = jul,
+	year = {2024},
+  	selected = {true},
+	abbr = {Humanoids}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{wang_online_2024,
+	title = {Online {Multicontact} {Receding} {Horizon} {Planning} via {Value} {Function} {Approximation}},
+	volume = {40},
+	issn = {1941-0468},
+	url = {https://ieeexplore.ieee.org/document/10506550},
+	doi = {10.1109/TRO.2024.3392154},
+	abstract = {Planning multicontact motions in a receding horizon fashion requires a value function to guide the planning with respect to the future, e.g., building momentum to traverse large obstacles. Traditionally, the value function is approximated by computing trajectories in a prediction horizon (never executed) that foresees the future beyond the execution horizon. However, given the nonconvex dynamics of multicontact motions, this approach is computationally expensive. To enable online receding horizon planning (RHP) of multicontact motions, we find efficient approximations of the value function. Specifically, we propose a trajectory-based and a learning-based approach. In the former, namely RHP with multiple levels of model fidelity, we approximate the value function by computing the prediction horizon with a convex relaxed model. In the latter, namely locally guided RHP, we learn an oracle to predict local objectives for locomotion tasks, and we use these local objectives to construct local value functions for guiding a short-horizon RHP. We evaluate both approaches in simulation by planning centroidal trajectories of a humanoid robot walking on moderate slopes, and on large slopes where the robot cannot maintain static balance. Our results show that locally guided RHP achieves the best computation efficiency (95\%–98.6\% cycles converge online). This computation advantage enables us to demonstrate online RHP of our real-world humanoid robot Talos walking in dynamic environments that change on-the-fly.},
+	urldate = {2024-09-04},
+	journal = {IEEE Transactions on Robotics},
+	author = {Wang, Jiayi and Kim, Sanghyun and Lembono, Teguh Santoso and Du, Wenqian and Shim, Jaehyun and Samadi, Saeid and Wang, Ke and Ivan, Vladimir and Calinon, Sylvain and Vijayakumar, Sethu and Tonneau, Steve},
+	year = {2024},
+	pages = {2791--2810},
+  	selected = {true},
+	abbr = {T-RO},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{wang_learning_2022,
+	title = {Learning to {Guide} {Online} {Multi}-{Contact} {Receding} {Horizon} {Planning}},
+	doi = {10.1109/IROS47612.2022.9981234},
+	abstract = {In Receding Horizon Planning (RHP), it is critical that the motion being executed facilitates the completion of the task, e.g. building momentum to overcome large obstacles. This requires a value function to inform the desirability of robot states. However, given the complex dynamics, value functions are often approximated by expensive computation of trajectories in an extended planning horizon. In this work, to achieve online multi-contact Receding Horizon Planning (RHP), we propose to learn an oracle that can predict local objectives (intermediate goals) for a given task based on the current robot state and the environment. Then, we use these local objectives to construct local value functions to guide a short-horizon RHP. To obtain the oracle, we take a supervised learning approach, and we present an incremental training scheme that can improve the prediction accuracy by adding demonstrations on how to recover from failures. We compare our approach against the baseline (long-horizon RHP) for planning centroidal trajectories of humanoid walking on moderate slopes as well as large slopes where static stability cannot be achieved. We validate these trajectories by tracking them via a whole-body inverse dynamics controller in simulation. We show that our approach can achieve online RHP for 95\%-98.6\% cycles, outperforming the baseline (8\%-51.2\%).},
+	booktitle = {2022 {IEEE}/{RSJ} {International} {Conference} on {Intelligent} {Robots} and {Systems} ({IROS})},
+	author = {Wang, Jiayi and Lembono, Teguh Santoso and Kim, Sanghyun and Calinon, Sylvain and Vijayakumar, Sethu and Tonneau, Steve},
+	month = oct,
+	year = {2022},
+	pages = {12942--12949},
+  	selected = {true},
+	abbr = {IROS},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{wang_multi-fidelity_2021,
+	title = {Multi-{Fidelity} {Receding} {Horizon} {Planning} for {Multi}-{Contact} {Locomotion}},
+	doi = {10.1109/HUMANOIDS47582.2021.9555778},
+	abstract = {When traversing uneven terrain, humans consider their future steps for choosing the best location and timing of their current step. Likewise, when planning multi-contact motions for legged robots (e.g. humanoids), a ‘prediction horizon’ has to be considered. However, planning several steps ahead increases the dimensionality and non-linearity of an already challenging problem, which makes online planning intractable. We propose to reduce the problem complexity by using convex relaxations in the prediction horizon. We realize this idea within a Receding Horizon Planning (RHP) framework to plan dynamically consistent centroidal trajectories of humanoid walking on uneven terrain. This results in a novel formulation that combines an accurate non-convex model with a relaxed convex model, which we call RHP with multiple levels of model fidelity. We evaluate three candidate multi-fidelity RHPs with convex relaxations of the centroidal dynamics in the prediction horizon. The best candidate is 1.4x-3.0x (average 2.4x) faster than the traditional RHP that employs a single dynamics model over the entire look-ahead horizon. We also validate the resultant centroidal trajectories by tracking them with a whole-body inverse dynamics controller in simulation. Lastly, we find that incorporating angular dynamics in the prediction horizon is important to the success of multi-fidelity RHP.},
+	booktitle = {2020 {IEEE}-{RAS} 20th {International} {Conference} on {Humanoid} {Robots} ({Humanoids})},
+	author = {Wang, Jiayi and Kim, Sanghyun and Vijayakumar, Sethu and Tonneau, Steve},
+	month = jul,
+	year = {2021},
+	pages = {53--60},
+    selected = {true},
+	abbr = {Humanoids},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{wang_automatic_2020,
+	title = {Automatic {Gait} {Pattern} {Selection} for {Legged} {Robots}},
+	doi = {10.1109/IROS45743.2020.9340789},
+	abstract = {An important issue when synthesizing legged locomotion plans is the combinatorial complexity that arises from gait pattern selection. Though it can be defined manually, the gait pattern plays an important role in the feasibility and optimality of a motion with respect to a task. Replacing human intuition with an automatic and efficient approach for gait pattern selection would allow for more autonomous robots, responsive to task and environment changes. To this end, we propose the idea of building a map from task to gait pattern selection for given environment and performance objective. Indeed, we show that for a 2D half-cheetah model and a quadruped robot, a direct mapping between a given task and an optimal gait pattern can be established. We use supervised learning to capture the structure of this map in a form of gait regions. Furthermore, we propose to construct a warm-starting trajectory for each gait region. We empirically show that these warm-starting trajectories improve the convergence speed of our trajectory optimization problem up to 60 times when compared with random initial guesses. Finally, we conduct experimental trials on the ANYmal robot to validate our method.},
+	booktitle = {2020 {IEEE}/{RSJ} {International} {Conference} on {Intelligent} {Robots} and {Systems} ({IROS})},
+	author = {Wang, Jiayi and Chatzinikolaidis, Iordanis and Mastalli, Carlos and Wolfslag, Wouter and Xin, Guiyang and Tonneau, Steve and Vijayakumar, Sethu},
+	month = oct,
+	year = {2020},
+	pages = {3990--3997},
+    selected = {true},
+	abbr = {IROS},
 }
