@@ -12,7 +12,9 @@
 @inproceedings{wang_nas_2024,
 	title = {{NAS}: {N}-step computation of {All} {Solutions} to the footstep planning problem},
 	url = {http://arxiv.org/abs/2407.12962},
-	abstract = {How many ways are there to climb a staircase in a given number of steps? Infinitely many, if we focus on the continuous aspect of the problem. A finite, possibly large number if we consider the discrete aspect, i.e. on which surface which effectors are going to step and in what order. We introduce NAS, an algorithm that considers both aspects simultaneously and computes all the possible solutions to such a contact planning problem, under standard assumptions. To our knowledge NAS is the first algorithm to produce a globally optimal policy, efficiently queried in real time for planning the next footsteps of a humanoid robot.},
+	abstract = {How many ways are there to climb a staircase in a given number of steps? Infinitely many, if we focus on the continuous aspect of the problem. A finite, possibly large number if we consider the discrete aspect, i.e. on which surface which effectors are going to step and in what order. We introduce NAS, an algorithm that considers both aspects simultaneously and computes all the possible solutions to such a contact planning problem, under standard assumptions. To our knowledge NAS is the first algorithm to produce a globally optimal policy, efficiently queried in real time for planning the next footsteps of a humanoid robot.
+	\\
+	Our empirical results (in simulation and on the Talos platform) demonstrate that, despite the theoretical exponential complexity, optimisations reduce the practical complexity of NAS to a manageable bilinear form, maintaining completeness guarantees and enabling efficient GPU parallelisation. NAS is demonstrated in a variety of scenarios for the Talos robot, both in simulation and on the hardware platform. Future work will focus on further reducing computation times and extending the algorithm’s applicability beyond gaited locomotion. Our video is available at https://youtu.be/I5yFe0ez0sI},
 	language = {en},
 	urldate = {2024-08-13},
 	booktitle = {2024 {IEEE}-{RAS} {International} {Conference} on {Humanoid} {Robots} ({Humanoids})},
@@ -40,7 +42,61 @@
   	selected = {true},
 	abbr = {T-RO},
     preview={TRO2024_Online_Multi_Contact_Preview_Img.jpg},
+	bibtex_show={true},
 }
+
+@article{wang_online_2023,
+	title = {Online receding horizon planning of multi-contact locomotion},
+	abstract = {Legged robots can traverse uneven terrain by using multiple contacts between their limbs and the environment. 
+	Nevertheless, to enable reliable operation in the real world, legged robots necessarily require the capability to online re-plan their motions in response to changing conditions, such as environment changes, or state deviations  due to external force perturbations. 
+	To approach this goal, Receding Horizon Planning (RHP) can be a promising solution. 
+	RHP refers to the planning framework that can  constantly update the motion plan for immediate execution. 
+	To achieve successful  RHP, we typically need to consider an extended planning horizon, which consists of an execution horizon that plans the motion to be executed, and a prediction horizon that foresees the future. 
+	Although the prediction horizon is never executed, it is  important to the success of RHP. 
+	This is because the prediction horizon serves as a value function approximation that evaluates the feasibility and the future effort required for accomplishing the given task starting from a chosen robot state. 
+	Having such value information can guide the execution horizon toward the states that are beneficial for the future. 
+	\\
+	Nevertheless, computing such multi-contact motions for a legged robot to traverse uneven terrain can be time-consuming, especially when considering a long planning horizon. 
+	The computation complexity typically comes from the simultaneous resolution of the following two sub-problems: 
+	1) selecting a gait pattern that specifies  the sequence in which the limbs break and make contact with the environment; 
+	2)  synthesizing the contact and motion plan that determines the robot state trajectory along with the contact plan, 
+	i.e., contact locations and contact timings. The issue of  gait pattern selection introduces combinatorial complexity into the planning problem, 
+	while the computation of the contact and motion plan brings high-dimensionality and non-convexity due to the consideration of complex non-linear dynamics 
+	constraints. \\
+	To facilitate online RHP of multi-contact motions, in this thesis, we focus on exploring novel methods to address these two sub-problems 
+	efficiently. To give more detail, we firstly consider the problem of planning contact and motion plans in an online receding horizon fashion. 
+	In this case, we pre-specifying the gait pattern as a priori. Although this helps us to avoid the combinatorial complexity, the resulting 
+	planning problem is still high-dimensional and non-convex, which can hinder online computation. To improve the computation speed, 
+	we propose to simplify the modeling of the value function approximation that is required for guiding the RHP. This leads to 
+	1) Receding Horizon Planning with Multiple Levels of Model Fidelity, where we compute the prediction horizon with a convex relaxed model; 
+	2) Locally- Guided  Receding Horizon Planning—where we propose to learn an oracle to predict local 
+	objectives (intermediate goals) for completing a given task, and then we use these local objectives to construct local value functions to guide 
+	a short-horizon RHP. We evaluate our methods for planning centroidal trajectories of a humanoid robot walking 
+	on moderate slopes as well as large slopes where static stability cannot be maintained. The result of multi-fidelity RHP demonstrates that we can accelerate 
+	the computation speed by relaxing the model accuracy in the prediction horizon. 
+	However, the relaxation cannot be arbitrary. Furthermore, owing to the shortened planning horizon, we find that locally-guided RHP demonstrates 
+	the best computation efficiency (95%-98.6% cycles converge online). 
+	This computation advantage enables us to demonstrate online  RHP for our real-world humanoid robot Talos walking in dynamic environments that 
+	change on-the-fly. \\
+	To handle the combinatorial complexity that arises from the gait pattern selection issue, 
+	we propose the idea of constructing a map from the task specifications to the gait pattern selections for a given environment model and performance 
+	objective (cost). We show that for a 2D half-cheetah model and a quadruped robot, a direct mapping between a given task and an optimal gait 
+	pattern can be established. We use supervised learning to capture the structure of this map in the form of gait regions. 
+	Furthermore, we also find that the trajectories in each gait region are qualitatively similar. 
+	We utilize this property to construct a warm-starting trajectory for each gait region, i.e., the mean of the trajectories discovered in each region. 
+	We empirically  show that these warm-starting trajectories can improve the computation speed of our trajectory optimization problem up to 60 times 
+	when compared with random  initial guesses. Moreover, we also conduct experimental trials on the ANYmal robot to validate our method.},
+	url = {https://era.ed.ac.uk/handle/1842/40850},
+	urldate = {2024-09-04},
+	author = {Wang, Jiayi},
+	year = {2023},
+	note = {Publisher: The University of Edinburgh},
+	selected = {true},
+	abbr={PhD Thesis},
+	preview={PhD_Thesis.jpg},
+	bibtex_show={true},
+}
+
 
 @inproceedings{wang_learning_2022,
 	title = {Learning to {Guide} {Online} {Multi}-{Contact} {Receding} {Horizon} {Planning}},
@@ -54,6 +110,7 @@
   	selected = {true},
 	abbr = {IROS},
     preview={IROS2022_Learning_Local_Obj.jpg},
+	bibtex_show={true},
 }
 
 @inproceedings{wang_multi-fidelity_2021,
@@ -68,6 +125,7 @@
     selected = {true},
 	abbr = {Humanoids},
     preview={Humanoids2020_Multi_Fidelity.jpg},
+	bibtex_show={true},
 }
 
 @inproceedings{wang_automatic_2020,
@@ -82,4 +140,5 @@
     selected = {true},
 	abbr = {IROS},
     preview={IROS2020_Gait_Pattern_Selection.jpg},
+	bibtex_show={true},
 }
