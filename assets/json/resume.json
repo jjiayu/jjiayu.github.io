@@ -33,7 +33,7 @@
   "education": [
     {
       "institution": "The University of Edinburgh",
-      "location": "Edinburgh, United Kingdom",
+      "location": "Edinburgh, UK",
       "url": "https://www.ed.ac.uk/",
       "area": "Humanoid Robotics",
       "studyType": "PhD",
@@ -42,7 +42,7 @@
     },
     {
       "institution": "The University of Edinburgh",
-      "location": "Edinburgh, United Kingdom",
+      "location": "Edinburgh, UK",
       "url": "https://www.ed.ac.uk/",
       "area": "Artificial Intelligence",
       "studyType": "MSc",
@@ -95,10 +95,20 @@
       "date": "2023-11-24"
     },
     {
-      "title": "Reviewer for jounals: T-RO, TMECH, RA-L, Advanced Robotics"
+      "title": "Reviewer for jounals: T-RO, TMECH, RA-L, Advanced Robotics",
+      "date": "2022-Now"
     },
     {
-      "title": "Reviewer for conferences: ICRA, IROS, Humanoids"
+      "title": "Reviewer for conferences: ICRA, IROS, Humanoids",
+      "date": "2020-Now"
+    },
+    {
+      "title": "Edinburgh Global Research Scholarship, The University of Edinburgh",
+      "date": "2017-11-01"
+    },
+    {
+      "title": "Principal's Career Development Scholarship, The University of Edinburgh",
+      "date": "2017-11-01"
     }
   ],
   "publications": [
