@@ -77,10 +77,28 @@
       "endDate": "2012-06-30"
     }
   ],
-  "activities": [
+  "awards": [
     {
-      "title": "Invited Talk in Institute for Cognitive Systems, Technical University of Munich (TUM), Germany",
+      "title": "Invited Talk at Institute for Cognitive Systems, Technical University of Munich (TUM), Germany",
       "date": "2024-11-11"
+    },
+    {
+      "title": "Invited Talk at Beijing Institute for General Artificial Intelligence (BIGAI)",
+      "date": "2024-07-19"
+    },
+    {
+      "title": "Invited Talk at Advanced Telecommunications Research Institute International (ATR), Japan",
+      "date": "2024-05-20"
+    },
+    {
+      "title": "Invited Talk at Institute of Automation, Chinese Academy of Sciences (CASIA), China",
+      "date": "2023-11-24"
+    },
+    {
+      "title": "Reviewer for jounals: T-RO, TMECH, RA-L, Advanced Robotics"
+    },
+    {
+      "title": "Reviewer for conferences: ICRA, IROS, Humanoids"
     }
   ],
   "publications": [
