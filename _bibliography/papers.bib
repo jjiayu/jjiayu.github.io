@@ -13,13 +13,14 @@
 	title = {{NAS}: {N}-step computation of {All} {Solutions} to the footstep planning problem},
 	url = {http://arxiv.org/abs/2407.12962},
 	abstract = {How many ways are there to climb a staircase in a given number of steps? Infinitely many, if we focus on the continuous aspect of the problem. A finite, possibly large number if we consider the discrete aspect, i.e. on which surface which effectors are going to step and in what order. We introduce NAS, an algorithm that considers both aspects simultaneously and computes all the possible solutions to such a contact planning problem, under standard assumptions. To our knowledge NAS is the first algorithm to produce a globally optimal policy, efficiently queried in real time for planning the next footsteps of a humanoid robot.
-	Our empirical results (in simulation and on the Talos platform) demonstrate that, despite the theoretical exponential complexity, optimisations reduce the practical complexity of NAS to a manageable bilinear form, maintaining completeness guarantees and enabling efficient GPU parallelisation. NAS is demonstrated in a variety of scenarios for the Talos robot, both in simulation and on the hardware platform. Future work will focus on further reducing computation times and extending the algorithm’s applicability beyond gaited locomotion. Our video is available at https://youtu.be/I5yFe0ez0sI},
+	Our empirical results (in simulation and on the Talos platform) demonstrate that, despite the theoretical exponential complexity, optimisations reduce the practical complexity of NAS to a manageable bilinear form, maintaining completeness guarantees and enabling efficient GPU parallelisation. NAS is demonstrated in a variety of scenarios for the Talos robot, both in simulation and on the hardware platform. Future work will focus on further reducing computation times and extending the algorithm's applicability beyond gaited locomotion. Our video is available at https://youtu.be/I5yFe0ez0sI},
 	language = {en},
 	urldate = {2024-08-13},
 	doi = {10.1109/Humanoids58906.2024.10769878},
 	booktitle = {2024 {IEEE}-{RAS} {International} {Conference} on {Humanoid} {Robots} ({Humanoids})},
 	organization={IEEE},
 	author = {Wang*, Jiayi and Samadi*, Saeid and Wang*, Hefan and Fernbach, Pierre and Stasse, Olivier and Vijayakumar, Sethu and Tonneau, Steve},
+	annotation = {* Equal contribution},
 	month = jul,
 	year = {2024},
   	selected = {true},
@@ -27,6 +28,8 @@
 	bibtex_show={true},
     preview={Humanoids2024_NAS.jpg},
 	pdf={Humanoids2024_NAS.pdf},
+    video={https://youtu.be/I5yFe0ez0sI},
+    bilibili={https://www.bilibili.com/video/BV1eY4YeCEZ6},
 }
 
 @article{wang_online_2024,
@@ -46,6 +49,8 @@
     preview={TRO2024_Online_Multi_Contact_Preview_Img.jpg},
 	bibtex_show={true},
 	pdf={TRO_2024_Online_Multi_Contact.pdf},
+    video={https://youtu.be/STBYJl7jvsg},
+	bilibili={https://www.bilibili.com/video/BV1du4y1Z7Sn},
 }
 
 @article{wang_online_2023,
@@ -82,12 +87,14 @@
     preview={IROS2022_Learning_Local_Obj.jpg},
 	pdf={IROS_2022_Learning_to_Guide.pdf},
 	bibtex_show={true},
+	video={https://youtu.be/oCsOBHHc9XM},
+	bilibili={https://www.bilibili.com/video/BV1YG411h739},
 }
 
 @inproceedings{wang_multi-fidelity_2021,
 	title = {Multi-{Fidelity} {Receding} {Horizon} {Planning} for {Multi}-{Contact} {Locomotion}},
 	doi = {10.1109/HUMANOIDS47582.2021.9555778},
-	abstract = {When traversing uneven terrain, humans consider their future steps for choosing the best location and timing of their current step. Likewise, when planning multi-contact motions for legged robots (e.g. humanoids), a ‘prediction horizon’ has to be considered. However, planning several steps ahead increases the dimensionality and non-linearity of an already challenging problem, which makes online planning intractable. We propose to reduce the problem complexity by using convex relaxations in the prediction horizon. We realize this idea within a Receding Horizon Planning (RHP) framework to plan dynamically consistent centroidal trajectories of humanoid walking on uneven terrain. This results in a novel formulation that combines an accurate non-convex model with a relaxed convex model, which we call RHP with multiple levels of model fidelity. We evaluate three candidate multi-fidelity RHPs with convex relaxations of the centroidal dynamics in the prediction horizon. The best candidate is 1.4x-3.0x (average 2.4x) faster than the traditional RHP that employs a single dynamics model over the entire look-ahead horizon. We also validate the resultant centroidal trajectories by tracking them with a whole-body inverse dynamics controller in simulation. Lastly, we find that incorporating angular dynamics in the prediction horizon is important to the success of multi-fidelity RHP.},
+	abstract = {When traversing uneven terrain, humans consider their future steps for choosing the best location and timing of their current step. Likewise, when planning multi-contact motions for legged robots (e.g. humanoids), a 'prediction horizon' has to be considered. However, planning several steps ahead increases the dimensionality and non-linearity of an already challenging problem, which makes online planning intractable. We propose to reduce the problem complexity by using convex relaxations in the prediction horizon. We realize this idea within a Receding Horizon Planning (RHP) framework to plan dynamically consistent centroidal trajectories of humanoid walking on uneven terrain. This results in a novel formulation that combines an accurate non-convex model with a relaxed convex model, which we call RHP with multiple levels of model fidelity. We evaluate three candidate multi-fidelity RHPs with convex relaxations of the centroidal dynamics in the prediction horizon. The best candidate is 1.4x-3.0x (average 2.4x) faster than the traditional RHP that employs a single dynamics model over the entire look-ahead horizon. We also validate the resultant centroidal trajectories by tracking them with a whole-body inverse dynamics controller in simulation. Lastly, we find that incorporating angular dynamics in the prediction horizon is important to the success of multi-fidelity RHP.},
 	booktitle = {2020 {IEEE}-{RAS} 20th {International} {Conference} on {Humanoid} {Robots} ({Humanoids})},
 	author = {Wang, Jiayi and Kim, Sanghyun and Vijayakumar, Sethu and Tonneau, Steve},
 	month = jul,
@@ -98,6 +105,8 @@
     preview={Humanoids2020_Multi_Fidelity.jpg},
 	bibtex_show={true},
 	pdf={Humanoids2020_Multi_Fidelity.pdf},
+	video={https://youtu.be/3FjKPmnYxvU},
+	bilibili={https://www.bilibili.com/video/BV1o44y127nM},
 }
 
 @inproceedings{wang_automatic_2020,
@@ -114,4 +123,6 @@
     preview={IROS2020_Gait_Pattern_Selection.jpg},
 	bibtex_show={true},
 	pdf={IROS2020_Auto_Gait_Pattern.pdf},
+	video={https://youtu.be/ylfYnl7sZDg},
+	bilibili={https://www.bilibili.com/video/BV1Gk4y1y7c2},
 }
