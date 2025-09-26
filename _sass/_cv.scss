@@ -2,6 +2,14 @@
  * CV shared styles
  *****************************/
 
+/* Style for invited talks */
+.invited-talks .title,
+[data-category="invited_talks"] .title {
+  color: var(--global-theme-color);
+  font-weight: bold;
+}
+
+
 div.container-link-button {
   margin-right: 0.5rem;
 }
