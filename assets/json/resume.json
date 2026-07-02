@@ -119,6 +119,11 @@
   ],
   "projects": [
     {
+      "name": "Industry-Sponsored Loco-Manipulation Project, LEJU Robotics",
+      "startDate": "2025-03-01",
+      "endDate": "2026-12-31"
+    },
+    {
       "name": "EU Horizon 2020 Project: HARMONY - Enhancing Healthcare with Assistive Robotic Mobile Manipulation",
       "startDate": "2021-01-01",
       "endDate": "2024-06-30"
