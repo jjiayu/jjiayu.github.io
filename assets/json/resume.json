@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Jiayi Wang",
-    "label": "Researcher in Humanoid Robotics",
+    "label": "Researcher in Humanoid Robot",
     "image": "",
     "email": "jiayi.robotics@hotmail.com",
     "url": "https://jjiayu.github.io",
-    "summary": "Humanoid Robotics, Multi-Contact Motion Planning, Locomotion, Loco-Manipulation, Trajectory Optimization, Robot Learning"
+    "summary": "Humanoid Robot, Multi-Contact Motion Planning, Locomotion, Loco-Manipulation, Trajectory Optimization, Robot Learning"
   },
   "education": [
     {
       "institution": "The University of Edinburgh",
       "location": "Edinburgh, UK",
       "url": "https://www.ed.ac.uk/",
-      "area": "Humanoid Robotics",
+      "area": "Humanoid Robot",
       "studyType": "PhD",
       "startDate": "2017-11-01",
       "endDate": "2023-11-23"
