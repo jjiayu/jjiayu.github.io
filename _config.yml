@@ -646,6 +646,7 @@ jsonresume:
   - awards
   - certificates
   - skills
+  - invited_talks
   - languages
   - interests
   - references
