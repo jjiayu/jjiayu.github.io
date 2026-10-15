@@ -121,6 +121,12 @@
       "endDate": "Present"
     }
   ],
+  "professional_activities": [
+    {
+      "date": "2026-09-20",
+      "title": "Invited Expert, Symposium on Multimodal Foundation Models for Intelligent Robotic Manufacturing and Assembly, Beijing"
+    }
+  ],
   "projects": [
     {
       "name": "Industry-Sponsored Loco-Manipulation Project, LEJU Robotics",

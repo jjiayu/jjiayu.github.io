@@ -88,6 +88,8 @@ layout: default
                 Academic Service
               {% elsif data[0] == 'invited_talks' %}
                 Invited Talks
+              {% elsif data[0] == 'professional_activities' %}
+                Professional Activities
               {% else %}
                 {{ data[0] | capitalize }}
               {% endif %}
@@ -104,6 +106,8 @@ layout: default
                   {% include resume/invited_talks.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
+                {% when 'professional_activities' %}
+                  {% include resume/professional_activities.liquid %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
                 {% when 'publications' %}
