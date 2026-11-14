@@ -3,7 +3,7 @@
     "name": "Jiayi Wang",
     "label": "Researcher in Humanoid Robot",
     "image": "",
-    "email": "jiayi.robotics@hotmail.com",
+    "email": "jiayi.wang@ieee.org",
     "url": "https://jjiayu.github.io",
     "summary": "Humanoid Robot, Multi-Contact Motion Planning, Locomotion, Loco-Manipulation, Trajectory Optimization, Robot Learning"
   },
@@ -144,7 +144,7 @@
       "endDate": "2023-06-30"
     },
     {
-      "name": "UK EPSRC Project: ORCA Hub - UK Robotics and Artificial Intelligence Hub for Offshore Energy Asset Integrity Management",
+      "name": "UKRI Project: ORCA Hub - UK Robotics and Artificial Intelligence Hub for Offshore Energy Asset Integrity Management",
       "startDate": "2017-10-01",
       "endDate": "2022-03-30"
     }
@@ -153,6 +153,10 @@
     {
       "title": "Interviewed by CCTV-2 Economy Half Hour Program",
       "date": "2025-05"
+    },
+    {
+      "title": "IEEE RAS Travel Support, Humanoids 2024",
+      "date": "2024-10"
     },
     {
       "title": "Travel Grant, IROS 2022",
