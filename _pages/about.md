@@ -9,7 +9,7 @@ profile:
   image: CV_Pic_Scaled.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p> jiayi.robotics_at_hotmail.com </p>
+    <p> jiayi.wang_at_ieee.org </p>
     <p> </p>
     <p> </p>
 
